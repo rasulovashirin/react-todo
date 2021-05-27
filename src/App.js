@@ -1,25 +1,50 @@
-import logo from './logo.svg';
 import './App.css';
+// import { TodoProvider } from './Context'
+// import Header from './Components/Header/Header'
+// import Main from './Components/Main/Main'
+
+// import { ModeProvider } from './Contexts/ModeContext'
+// import { LangProvider } from './Contexts/LangContext'
+// import Main from './Task/Main'
+// import Header from './Task/Header';
+
+// import { CalcProvider } from './Contexts/CalcContext'
+
+// import Result from './Calculator/Result'
+// import Plus from './Calculator/Plus'
+
+// import Todo from './Todo'
+import Meme from './Meme'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+  return (
+    <>
+      {/* <TodoProvider>
+        <Header/>
+        <Main/>
+      </TodoProvider> */}
+
+      {/* <LangProvider>
+        <ModeProvider>
+          <Header/>
+          <Main />
+        </ModeProvider>
+      </LangProvider> */}
+
+      {/* <CalcProvider>
+       <Plus/>
+       <Result/>
+      </CalcProvider> */}
+
+      {/* <Todo /> */}
+
+      <Meme />
+
+    </>
+
+    );
+  }
+
+  export default App;
